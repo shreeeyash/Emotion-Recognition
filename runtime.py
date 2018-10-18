@@ -9,9 +9,9 @@ import time
 import numpy as np
 
 model = load_model('/home/shreeyash/Desktop/ML/faces/training/trained models/3rd_model.h5')
-#emotion_dict = {0:"Angry", 1:"Disgust", 2:"Fear", 3:"Happy", 4:"Sad", 5:"Surprise", 6:"Neutral"}
-#emotion_dict = {0:'Angry',1:'Happy',2:'Neutral',3:'Sad'}
-emotion_dict = {0:'Angry',1:'Happy',2:'Neutral',3:'Surprise'}
+emotion_dict = {0:"Angry", 1:"Disgust", 2:"Fear", 3:"Happy", 4:"Sad", 5:"Surprise", 6:"Neutral"}
+#for 2nd model #emotion_dict = {0:'Angry',1:'Happy',2:'Neutral',3:'Sad'}
+#for 3rd model #emotion_dict = {0:'Angry',1:'Happy',2:'Neutral',3:'Surprise'}
 
 capture = cv2.VideoCapture(0)
 no_frames = 0
