@@ -3,7 +3,7 @@ This is a deep learning project for facial emotion recognition in real time. I h
 There are three major parts:</br>
   (1) Preprocessing</br>
   (2) Training CNN model</br>
-  (3) Runtime execution</br>
+  (3) Real time execution</br>
   
 ## Preprocessing
 First part is preprocessing of data in fer2013 dataset. There are about 30,000 labeled images for 7 different emotions.
@@ -15,4 +15,5 @@ I trained my [1st model](https://github.com/Shreeyash-iitr/Emotion-Recognition/b
   [2nd]() and [3rd]() models are trained only for a set of emotions: happy, neutral, angry and surprise.
 
   
-  
+  ## Real time Emotion Recognition
+For real time [implementation](https://github.com/Shreeyash-iitr/Emotion-Recognition/blob/master/runtime.py) of above trained model, I used OpenCV library to take real time video feed from laptop camera and then model predicts the most probable Emotion.
