@@ -18,3 +18,6 @@ I trained my [1st model](https://github.com/Shreeyash-iitr/Emotion-Recognition/b
   ## Real time Emotion Recognition
 For real time implementation of above trained model, I used OpenCV library to take real time video feed from laptop camera and then model predicts the most probable Emotion.
 Pretrained model can be downloaded from [here](https://github.com/Shreeyash-iitr/Emotion-Recognition/blob/master/trained%20models/1st_model.h5). To run the model in realtime, run [this](https://github.com/Shreeyash-iitr/Emotion-Recognition/blob/master/runtime.py) python code.
+
+## Results
+<img src="result.png" >
