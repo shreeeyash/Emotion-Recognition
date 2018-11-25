@@ -20,4 +20,5 @@ For real time implementation of above trained model, I used OpenCV library to ta
 Pretrained model can be downloaded from [here](https://github.com/Shreeyash-iitr/Emotion-Recognition/blob/master/trained%20models/1st_model.h5). To run the model in realtime, run [this](https://github.com/Shreeyash-iitr/Emotion-Recognition/blob/master/runtime.py) python code.
 
 ## Results
+Output in terminal window is face emotion followed by its probability among other emotions on which model is trained.
 <img src="results.png" >
